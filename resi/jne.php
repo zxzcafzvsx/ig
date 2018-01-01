@@ -6,7 +6,7 @@ $konten = file_get_contents($sumber);
 $data = json_decode($konten, true);
 
  echo "<h3>Cek Resi JNE, fitur ini masih BETA dan masih dalam tahap pengembangan</h3>";
- echo "<br/>";
+ echo "</br>";
 ?>
 <?php   
 for($i=0; $i < count($data['manifest']); $i++) {
