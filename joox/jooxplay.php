@@ -1,5 +1,5 @@
 <?php
-    require "mycurl.php";
+    require "./mycurl.php";
     
     $tsnow = time();
     $get_ = $tsnow++;
