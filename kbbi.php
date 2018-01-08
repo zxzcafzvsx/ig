@@ -5,7 +5,7 @@ $konten = file_get_contents($sumber);
 $data = json_decode($konten, true);
 ?>
 <?php   
-for($i=0; $i < count($data); $i++) {
+for($i=0; $i < 2; $i++) {
 print $data[$i]['d']."</br></br>";
 }
 ?>
